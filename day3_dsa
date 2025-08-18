@@ -1,0 +1,80 @@
+/*
+Problem: Add Two Numbers
+LeetCode Link: https://leetcode.com/problems/add-two-numbers/
+Date Solved: 16 Aug 2025
+
+Description:
+You are given two non-empty linked lists representing two non-negative integers. 
+The digits are stored in reverse order, and each node contains a single digit. 
+Add the two numbers and return the sum as a linked list.
+
+Example:
+Input:  l1 = [2,4,3], l2 = [5,6,4]
+Output: [7,0,8]
+Explanation: The digits represent 342 and 465.
+             342 + 465 = 807, so the result linked list is [7,0,8].
+
+Input:  l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
+Output: [8,9,9,9,0,0,0,1]
+
+Key Idea / Approach:
+- Each node contains a digit of the number, stored in reverse order.
+  For example, [2,4,3] means the number 342.
+- We need to add two numbers like in elementary school addition:
+    - Add digits one by one
+    - Carry over if sum >= 10
+- We use a dummy head node so we don’t need to handle the first node separately.
+- Continue until both linked lists are fully traversed AND carry = 0.
+
+Steps:
+1. Initialize a dummy head and a pointer `current` for building the result.
+2. Traverse while l1, l2, or carry exist.
+3. Compute sum of digits + carry.
+4. Create new node with digit (sum % 10).
+5. Update carry = sum / 10.
+6. Move l1, l2 pointers forward and keep appending nodes.
+7. Return dummyHead.next (the actual start of the result list).
+
+Complexity:
+- Time Complexity: O(max(m, n)) where m and n are the lengths of the two lists.
+- Space Complexity: O(max(m, n)) for the result list.
+*/
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class AddTwoNumbers {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummyHead = new ListNode(0); // dummy node to simplify result building
+        ListNode current = dummyHead;
+        int carry = 0;
+
+        // Loop while at least one list has nodes OR there is a carry left
+        while (l1 != null || l2 != null || carry != 0) {
+            int sum = carry; // start with carry
+
+            if (l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
+            }
+
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
+
+            carry = sum / 10; // update carry
+            current.next = new ListNode(sum % 10); // store digit
+            current = current.next; // move pointer
+        }
+
+        return dummyHead.next; // skip dummy head and return actual result
+    }
+}
