@@ -19,7 +19,7 @@ class Solution {
         {
             return;
         }
-        k=k%n; 
+        k=k%n; //n = 6, k = 8 Instead of rotating 8 times
         rev(nums,0,nums.length-1);
         rev(nums,0,k-1);
         rev(nums,k,nums.length-1);
