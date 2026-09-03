@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0350-intersection-of-two-arrays-ii) |
 ## String
 |  |
 | ------- |
@@ -32,11 +33,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0027-remove-element) |
 | [0189-rotate-array](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0189-rotate-array) |
 | [0349-intersection-of-two-arrays](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Binary Search
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0035-search-insert-position) |
 | [0349-intersection-of-two-arrays](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Math
 |  |
 | ------- |
@@ -57,11 +60,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0217-contains-duplicate](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
