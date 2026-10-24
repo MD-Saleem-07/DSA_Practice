@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0066-plus-one](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0189-rotate-array) |
+| [0509-fibonacci-number](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0509-fibonacci-number) |
 ## Greedy
 |  |
 | ------- |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0509-fibonacci-number](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0509-fibonacci-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -85,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0021-merge-two-sorted-lists) |
+| [0509-fibonacci-number](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0509-fibonacci-number) |
 ## Stack
 |  |
 | ------- |
@@ -93,4 +96,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0020-valid-parentheses) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/MD-Saleem-07/DSA_Practice/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
